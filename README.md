@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in Scala related to implicit Ordering resolution. The core problem lies in the ambiguity that arises when multiple implicit Orderings might be applicable, leading to a compilation failure. The solution involves providing more specific type information to guide the compiler towards the correct implicit.
